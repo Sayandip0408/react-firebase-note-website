@@ -64,7 +64,7 @@ const Login = () => {
                         <p className='w-full text-sm text-gray-800 text-center'>Do not have an account? <Link href='/register' className='font-semibold text-black underline'>Register</Link></p>
                         <Social />
                     </div>
-                    <Image src={require("../public/notebook.jpg")} className='h-[100%] w-[100%] hidden lg:block col-span-2 object-cover' />
+                    <Image src={require("../public/notebook.jpg")} className='h-[calc(100vh-24px)] w-[100%] hidden lg:block col-span-2 object-cover' />
                 </section>
             </main>
         </>
