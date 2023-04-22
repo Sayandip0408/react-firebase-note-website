@@ -63,9 +63,7 @@ const Register = () => {
             </Head>
             <main className='h-[100vh] w-[100vw] bg-white p-3'>
                 <section className='h-full grid grid-cols-1 lg:grid-cols-3'>
-                    <div className="bg-[url('../public/notebook.jpg')] bg-center bg-no-repeat bg-cover h-[100%] w-[100%] hidden lg:block col-span-2">
-
-                    </div>
+                    <Image src={require("../public/notebook.jpg")} className='h-[100%] w-[100%] hidden lg:block col-span-2 object-cover' />
                     <div className='py-5 px-5 md:px-28 lg:px-20 relative flex flex-col items-start justify-center gap-3'>
                         <Image src={require('../public/noteIcon.png')} className='h-12 w-12' />
                         <h2 className='w-full text-2xl font-bold'>Create an account</h2>
